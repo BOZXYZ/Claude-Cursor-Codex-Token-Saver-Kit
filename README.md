@@ -94,9 +94,9 @@ preCompact         → compaction guidance + checkpoint
 Caveman rule       → terse agent output
 ```
 
-## Real numbers (production VPS)
+## Real numbers
 
-From a live RetailBonds VPS session:
+From a live RetailBonds session:
 
 - **RTK:** 16.7M tokens saved (68% on shell commands)
 - **Token Optimizer doctor:** 13/13 checks passing
