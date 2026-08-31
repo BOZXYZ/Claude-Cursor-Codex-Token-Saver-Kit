@@ -1,0 +1,31 @@
+# Example project-local RTK filters (optional).
+# Copy to your repo as .rtk/filters.toml then run: rtk trust --yes
+schema_version = 1
+
+[filters.git-status]
+description = "Compact git status"
+match_command = "^git\\s+status\\b"
+strip_ansi = true
+strip_lines_matching = ["^\\s*$"]
+max_lines = 40
+
+[filters.curl]
+description = "Strip curl progress bars"
+match_command = "^curl\\b"
+strip_ansi = true
+strip_lines_matching = [
+  "^\\s*\\% Total\\s+\\% Received.*$",
+  "^\\s*--:--:--.*$",
+  "^\\s*$",
+]
+max_lines = 40
+
+[filters.pytest]
+description = "Keep pytest failures only"
+match_command = "^(\\.venv/bin/)?pytest\\b|^uv\\s+run\\s+pytest\\b"
+strip_ansi = true
+strip_lines_matching = [
+  "^=+\\s+\\d+ passed.*$",
+  "^\\s*$",
+]
+max_lines = 80

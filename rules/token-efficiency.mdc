@@ -1,0 +1,13 @@
+---
+description: "Token efficiency — minimize context waste without losing accuracy"
+alwaysApply: true
+---
+
+Token discipline:
+
+- Prefer `rg`/`head`/`tail` over dumping whole files; use Read with offset/limit on large files.
+- Shell: let RTK hooks rewrite commands (`rtk git`, `rtk grep`, etc.) — do not bypass with raw verbose output.
+- Re-read files only when they may have changed; trust prior reads in same session.
+- Keep responses concise; no recap preambles or trailing summaries unless asked.
+- Subagents: narrow scope, return only findings — not full file dumps.
+- Health checks: short `curl` probes, not full log tails.

@@ -1,0 +1,69 @@
+{
+  "version": 1,
+  "hooks": {
+    "sessionStart": [
+      {
+        "command": "./hooks/to-session-start.sh",
+        "timeout": 20
+      }
+    ],
+    "beforeSubmitPrompt": [
+      {
+        "command": "./hooks/to-user-prompt.sh",
+        "timeout": 20
+      }
+    ],
+    "preToolUse": [
+      {
+        "command": "./hooks/rtk-rewrite.sh",
+        "matcher": "Shell",
+        "timeout": 5
+      },
+      {
+        "command": "./hooks/to-bash-compress.sh",
+        "matcher": "Shell",
+        "timeout": 10
+      },
+      {
+        "command": "./hooks/to-read-cache.sh",
+        "matcher": "Read",
+        "timeout": 10
+      }
+    ],
+    "postToolUse": [
+      {
+        "command": "./hooks/to-post-tool-use.sh",
+        "matcher": "Shell|Read|Grep|Glob|Task|MCP:",
+        "timeout": 15
+      }
+    ],
+    "preCompact": [
+      {
+        "command": "./hooks/to-dynamic-compact.sh",
+        "timeout": 20
+      },
+      {
+        "command": "./hooks/to-pre-compact.sh",
+        "timeout": 20
+      }
+    ],
+    "postCompact": [
+      {
+        "command": "./hooks/to-post-compact.sh",
+        "timeout": 20
+      }
+    ],
+    "stop": [
+      {
+        "command": "./hooks/to-stop.sh",
+        "timeout": 15
+      }
+    ],
+    "sessionEnd": [
+      {
+        "command": "./hooks/to-session-end.sh",
+        "timeout": 60
+      }
+    ]
+  }
+}
