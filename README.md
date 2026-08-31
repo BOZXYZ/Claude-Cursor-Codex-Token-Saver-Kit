@@ -4,7 +4,7 @@
 
 Wires [RTK](https://github.com/rtk-ai/rtk), [Token Optimizer](https://github.com/alexgreensh/token-optimizer), and [Caveman](https://github.com/JuliusBrussee/caveman) for **Cursor**, **Claude Code**, and **Codex** — the AI coding agents that support local hooks.
 
-Built by **[RetailBonds.in](https://retailbonds.in)** — Indian fixed income research platform. We run AI dev on a budget VPS and open-sourced our token stack.
+Built by **[RetailBonds.in](https://retailbonds.in)** — Indian fixed income research platform. We open-sourced our token stack.
 
 ## What it does
 
