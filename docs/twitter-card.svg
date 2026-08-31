@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-label="Twitter announcement card">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#081018"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#67e8f9"/>
+      <stop offset="100%" stop-color="#4ade80"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg2)"/>
+  <rect x="60" y="60" width="1480" height="780" rx="36" fill="#0f172a" stroke="#1e293b" stroke-width="3"/>
+
+  <text x="100" y="170" fill="#f8fafc" font-family="Arial, sans-serif" font-size="72" font-weight="700">Stop burning tokens</text>
+  <text x="100" y="255" fill="url(#titleGrad)" font-family="Arial, sans-serif" font-size="72" font-weight="700">on AI coding agents</text>
+  <text x="100" y="340" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="34" font-weight="500">Free open-source kit for Cursor, Claude Code and Codex</text>
+
+  <rect x="100" y="390" width="520" height="220" rx="24" fill="#111c2f" stroke="#334155"/>
+  <text x="140" y="450" fill="#94a3b8" font-family="Arial, sans-serif" font-size="24" font-weight="700">STACK</text>
+  <text x="140" y="500" fill="#86efac" font-family="Arial, sans-serif" font-size="34" font-weight="700">RTK</text>
+  <text x="240" y="500" fill="#d8b4fe" font-family="Arial, sans-serif" font-size="34" font-weight="700">Token Optimizer</text>
+  <text x="140" y="560" fill="#fdba74" font-family="Arial, sans-serif" font-size="34" font-weight="700">Caveman</text>
+
+  <rect x="660" y="390" width="360" height="220" rx="24" fill="#10231d" stroke="#166534"/>
+  <text x="700" y="470" fill="#86efac" font-family="Arial, sans-serif" font-size="88" font-weight="700">68%</text>
+  <text x="700" y="530" fill="#bbf7d0" font-family="Arial, sans-serif" font-size="30" font-weight="700">shell output savings</text>
+
+  <rect x="1060" y="390" width="420" height="220" rx="24" fill="#102033" stroke="#155e75"/>
+  <text x="1100" y="470" fill="#67e8f9" font-family="Arial, sans-serif" font-size="72" font-weight="700">16.7M</text>
+  <text x="1100" y="530" fill="#bae6fd" font-family="Arial, sans-serif" font-size="30" font-weight="700">tokens saved in production</text>
+
+  <text x="100" y="700" fill="#e2e8f0" font-family="Arial, sans-serif" font-size="30" font-weight="700">github.com/BOZXYZ/Claude-Cursor-Codex-Token-Saver-Kit</text>
+  <text x="100" y="760" fill="#64748b" font-family="Arial, sans-serif" font-size="24">Built by RetailBonds.in + RetailInterest.com</text>
+</svg>

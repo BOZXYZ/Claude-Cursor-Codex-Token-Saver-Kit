@@ -1,5 +1,9 @@
 # Claude Cursor Codex Token Saver Kit
 
+<p align="center">
+  <img src="docs/banner.png" alt="Claude Cursor Codex Token Saver Kit — cut AI coding token waste by 50–70%" width="100%">
+</p>
+
 **One install. Three agents. Cut shell, context, and output token waste by 50–70%.**
 
 Wires [RTK](https://github.com/rtk-ai/rtk), [Token Optimizer](https://github.com/alexgreensh/token-optimizer), and [Caveman](https://github.com/JuliusBrussee/caveman) for **Cursor**, **Claude Code**, and **Codex** — the AI coding agents that support local hooks.
